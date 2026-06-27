@@ -43,4 +43,4 @@ def delete_patient(patient_id: int, db: Session = Depends(get_db)):
     patient = crud.delete_patient(db, patient_id)
     if not patient:
         raise HTTPException(status_code=404, detail="patient not found")
-    return {'message': 'patient deleted successfully'}
+    return patient
