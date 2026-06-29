@@ -32,5 +32,5 @@ def delete_patient(db: Session, patient_id: int):
        return None 
     db.delete(patient) 
     db.commit() 
-    return patient 
+    return patient
 
