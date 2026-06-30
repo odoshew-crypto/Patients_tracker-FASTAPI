@@ -121,7 +121,7 @@ curl -X POST "http://127.0.0.1:8000/patients/" \
 -H "Content-Type: application/json" \
 -d "{\"name\":\"John Doe\",\"phone\":\"0712345678\",\"doctor\":\"Dr. Smith\",\"appointment_date\":\"2026-06-27\",\"status\":\"scheduled\"}"
 ```
-
+-Deployed the project using Render tool and the project is live in public and can be accessed through this URL  https://patients-tracker-fastapi-1.onrender.com
 ## Author
 
 Created by **odoshew-crypto**.
